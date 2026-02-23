@@ -2,7 +2,7 @@ services:
   ocr-api:
     build: .
     ports:
-      - "8080:8000"
+      - "5555:8000"
     volumes:
       - ./app:/app/app
     restart: unless-stopped
